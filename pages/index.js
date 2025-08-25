@@ -983,10 +983,10 @@ const getCardAnimClass = () => {
 
       {step === 1 && (
   <>
-    <StickyHeader title="Let's get started" />
-    <div className={`transition-transform duration-300 ease-in-out transform ${getCardAnimClass()} md:translate-x-0`}>
-      {/* Swipe Instructions */}
+    <StickyHeader title="Let's get started">
       <SwipeHint show={step >= 1 && navMode === "swipe"} />
+    </StickyHeader>
+    <div className={`transition-transform duration-300 ease-in-out transform ${getCardAnimClass()} md:translate-x-0`}>
 
       <div data-print="step-1" className="flex flex-col min-h-screen bg-[#F9FAFB] text-[#111827] font-sans w-full">
         {/* Scrollable content */}
@@ -1091,10 +1091,10 @@ const getCardAnimClass = () => {
 
       {step === 2 && (
   <>
-    <StickyHeader title="First Impressions" />
-    <div className={`transition-transform duration-300 ease-in-out transform ${getCardAnimClass()} md:translate-x-0`}>
-      {/* Swipe Instructions */}
+    <StickyHeader title="First Impressions">
       <SwipeHint show={step >= 1 && navMode === "swipe"} />
+    </StickyHeader>
+    <div className={`transition-transform duration-300 ease-in-out transform ${getCardAnimClass()} md:translate-x-0`}>
       
       <div data-print="step-2" className="flex flex-col min-h-screen bg-[#F9FAFB] text-[#111827] font-sans w-full">
         <div ref={scrollRef} className="flex-1 w-full px-4 pb-6 flex flex-col items-center overflow-y-auto">
@@ -1176,10 +1176,10 @@ const getCardAnimClass = () => {
 
       {step === 3 && (
   <>
-    <StickyHeader title="Living Room" />
-    <div className={`transition-transform duration-300 ease-in-out transform ${getCardAnimClass()} md:translate-x-0`}>
-      {/* Swipe Instructions */}
+    <StickyHeader title="Living Room">
       <SwipeHint show={step >= 1 && navMode === "swipe"} />
+    </StickyHeader>
+    <div className={`transition-transform duration-300 ease-in-out transform ${getCardAnimClass()} md:translate-x-0`}>
 
       
       <div data-print="step-3" className="flex flex-col min-h-screen bg-[#F9FAFB] text-[#111827] font-sans w-full">
@@ -1324,10 +1324,10 @@ const getCardAnimClass = () => {
 )}
             {step === 4 && (
   <>
-    <StickyHeader title="Kitchen" />
-    <div className={`transition-transform duration-300 ease-in-out transform ${getCardAnimClass()} md:translate-x-0`}>
-      {/* Swipe Instructions */}
+    <StickyHeader title="Kitchen">
       <SwipeHint show={step >= 1 && navMode === "swipe"} />
+    </StickyHeader>
+    <div className={`transition-transform duration-300 ease-in-out transform ${getCardAnimClass()} md:translate-x-0`}>
 
       <div data-print="step-4" className="flex flex-col min-h-screen bg-[#F9FAFB] text-[#111827] font-sans w-full">
         <div ref={scrollRef} className="flex-1 w-full px-4 pb-6 flex flex-col items-center overflow-y-auto">
@@ -1520,10 +1520,10 @@ const getCardAnimClass = () => {
 )}
           {step === 5 && (
   <>
-    <StickyHeader title="Bathroom" />
-    <div className={`transition-transform duration-300 ease-in-out transform ${getCardAnimClass()} md:translate-x-0`}>
-      {/* Swipe Instructions */}
+    <StickyHeader title="Bathroom">
       <SwipeHint show={step >= 1 && navMode === "swipe"} />
+    </StickyHeader>
+    <div className={`transition-transform duration-300 ease-in-out transform ${getCardAnimClass()} md:translate-x-0`}>
 
       <div data-print="step-5" className="flex flex-col min-h-screen bg-[#F9FAFB] text-[#111827] font-sans w-full">
         <div ref={scrollRef} className="flex-1 w-full px-4 pb-6 flex flex-col items-center overflow-y-auto">
@@ -1732,10 +1732,10 @@ const getCardAnimClass = () => {
 
     {step === 6 && (
   <>
-    <StickyHeader title="Bedroom" />
-    <div className={`transition-transform duration-300 ease-in-out transform ${getCardAnimClass()} md:translate-x-0`}>
-      {/* Swipe Instructions */}
+    <StickyHeader title="Bedroom">
       <SwipeHint show={step >= 1 && navMode === "swipe"} />
+    </StickyHeader>
+    <div className={`transition-transform duration-300 ease-in-out transform ${getCardAnimClass()} md:translate-x-0`}>
       <div data-print="step-6" className="flex flex-col min-h-screen bg-[#F9FAFB] text-[#111827] font-sans w-full">
         <div ref={scrollRef} className="flex-1 w-full px-4 pb-6 flex flex-col items-center overflow-y-auto">
 
@@ -1927,10 +1927,10 @@ const getCardAnimClass = () => {
 
             {step === 7 && (
   <>
-    <StickyHeader title="Surroundings" />
-    <div className="transition-transform duration-300 ease-in-out transform translate-x-0">
-      {/* Swipe Instructions */}
+    <StickyHeader title="Surroundings">
      <SwipeHint show={step >= 2 && navMode === "swipe"} />
+    </StickyHeader>
+    <div className={`transition-transform duration-300 ease-in-out transform ${getCardAnimClass()} md:translate-x-0`}>
 
       <div data-print="step-7" className="flex flex-col min-h-screen bg-[#F9FAFB] text-[#111827] font-sans w-full">
         <div ref={scrollRef} className="flex-1 w-full px-4 pb-6 flex flex-col items-center overflow-y-auto">
@@ -2112,10 +2112,10 @@ const getCardAnimClass = () => {
       {/* === Step 8: Page 7 (Ask the Makelaar) === */}
       {step === 8 && (
   <>
-    <StickyHeader title="Ask the Makelaar" />
-    <div className="transition-transform duration-300 ease-in-out transform translate-x-0">
-      {/* Swipe Instructions */}
+    <StickyHeader title="Ask the Makelaar">
       <SwipeHint show={step >= 2 && navMode === "swipe"} />
+    </StickyHeader>
+    <div className={`transition-transform duration-300 ease-in-out transform ${getCardAnimClass()} md:translate-x-0`}>
 
       <div data-print="step-9" className="flex flex-col min-h-screen bg-[#F9FAFB] text-[#111827] font-sans w-full">
         <div ref={scrollRef} className="flex-1 w-full px-4 pb-6 flex flex-col items-center overflow-y-auto">
@@ -2198,14 +2198,10 @@ const getCardAnimClass = () => {
       {/* === Step 9: Page 8 (Final Thoughts) === */}
       {step === 9 && (
   <>
-    <StickyHeader title="Final Thoughts" />
-    <div className="transition-transform duration-300 ease-in-out transform translate-x-0">
-      {/* Swipe Instructions */}
-      {step >= 10 && (
-        <div className="absolute top-4 right-4 text-sm text-[#111827] opacity-70 block md:hidden">
-          Swipe → Next | Swipe ← Back
-        </div>
-      )}
+    <StickyHeader title="Final Thoughts">
+      <SwipeHint show={navMode === "swipe"} />
+    </StickyHeader>
+    <div className={`transition-transform duration-300 ease-in-out transform ${getCardAnimClass()} md:translate-x-0`}>
 
       <div className="flex flex-col min-h-screen bg-[#F9FAFB] text-[#111827] font-sans w-full">
         <div ref={scrollRef} className="flex-1 w-full px-4 pb-6 flex flex-col items-center overflow-y-auto">
